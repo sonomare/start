@@ -8,24 +8,26 @@
   </head>
   <body>
     <div class="bg-dark">
-    <header>
+    <header class="flex-container">
       <a href="/" aria-label="Zur Startseite" class="text-small text-decoration">Header Logo</a>
-      <nav>
-        <ul>
-          <li><a href="./header-link-one.html" class="text-xsmall text-decoration">header link one</a></li>
-          <li><a href="./header-link-two.html" class="text-xsmall text-decoration">header link two</a></li>
-          <li><a href="./header-link-three.html"class="text-xsmall text-decoration">header link three</a></li>
+      <nav class="">
+        <ul class="flex-navigation">
+          <li class="flex-navigation-item"><a href="./header-link-one.html" class="text-xsmall text-decoration">header link one</a></li>
+          <li class="flex-navigation-item"><a href="./header-link-two.html" class="text-xsmall text-decoration">header link two</a></li>
+          <li class="flex-navigation-item"><a href="./header-link-three.html"class="text-xsmall text-decoration">header link three</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="flex-container">
+        <div>
           <h1 class="text-large">This website is awesome</h1>
           <p class="text-xsmall">
             This website has some subtext that goes here under the main title.
             It's a smaller font and the color is lower contrast
           </p>
-          <button class="btn-cta text-white text-bold rounded-sm border-white">Sign up</button>
+          <button class="btn-cta text-white text-bold rounded-sm btn-space">Sign up</button>
+        </div>
       <figure>
         <img
           src="https://dummyimage.com/520x240/6d747d/ffffff.png&text=this+is+a+placeholder+for+an+image"
@@ -47,8 +49,6 @@
               this is some subtext under an illustration or image
             </figcaption>
           </figure>
-        </div>
-        <div>
           <figure>
             <img
               src="https://dummyimage.com/170x170/ffffff/ffffff"
@@ -59,8 +59,7 @@
               this is some subtext under an illustration or image
             </figcaption>
           </figure>
-        </div>
-        <div>
+       
           <figure>
             <img
               src="https://dummyimage.com/170x170/ffffff/ffffff"
@@ -71,8 +70,7 @@
               this is some subtext under an illustration or image
             </figcaption>
           </figure>
-        </div>
-        <div>
+     
           <figure>
             <img
               src="https://dummyimage.com/170x170/ffffff/ffffff"
@@ -83,8 +81,7 @@
               this is some subtext under an illustration or image
             </figcaption>
           </figure>
-        </div>
-      </section>
+            </section>
       <div class="bg-light">
       <section>
         <blockquote class="text-dark">
@@ -103,7 +100,7 @@
         <p class="text-xsmall">
           Sign up four our product by clicking that button right over there!
         </p>
-        <button class="btn-cta text-white text-bold rounded-sm border-white">Sign up</button>
+        <button class="btn-cta text-white text-bold rounded-sm border-white btn-space">Sign up</button>
       </section>
     </div>
     </main>

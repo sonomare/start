@@ -74,3 +74,23 @@ a {
   border-color: var(--text-color-white);
   border-style: solid;
 }
+.btn-space {
+  padding: 0.3125rem 1.5rem;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Verteilt die Items gleichmäßig mit Platz dazwischen */
+  align-items: center; /* Zentriert die Items vertikal */
+  width: 1024px; /* Feste Breite des Containers */
+  margin: 0 auto; /* Zentriert den Container horizontal */
+  padding: 0px 20px; /* Innenabstand innerhalb des Containers */
+}
+.flex-navigation {
+  display: flex;
+  justify-content: space-between; /* Verteilt die Items gleichmäßig mit Platz dazwischen */
+  align-items: flex-end; /* Zentriert die Items vertikal */
+}
+.flex-navigation-item {
+  margin: 10px;
+  list-style-type: none;
+}
