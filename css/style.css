@@ -5,92 +5,181 @@
   --accent-color: #3882f6;
   --text-color-light: #f9faf8;
   --text-color-white: #ffffff;
-  --font-size-large: 3rem; /* 48px / 16 = 3rem */
-  --font-size-medium: 2.25rem; /* 36px / 16 = 2.25rem */
-  --font-size-small: 1.5rem; /* 24px / 16 = 1.5rem */
-  --font-size-xsmall: 1.125rem; /* 18px / 16 = 1.125rem */
+  --font-size-large: 3rem;
+  --font-size-medium: 2.25rem;
+  --font-size-small: 1.5rem;
+  --font-size-xsmall: 1.125rem;
   --font-weight-bold: 700;
   --font-weight-light: 300;
   --text-decoration-line: none;
-  --border-radius-small: 0.3125rem;
+  --border-radius-small: 0.3125rem; /* 5px / 16 = 0.3125rem */
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: var(--primary-font);
 }
+
 a {
   text-decoration: var(--text-decoration-line);
 }
+
 .rounded-sm {
   border-radius: var(--border-radius-small);
 }
+
 .bg-dark {
   background-color: var(--dark-color);
 }
+
 .bg-light {
   background-color: var(--light-color);
 }
+
 .text-large {
   font-size: var(--font-size-large);
   font-weight: var(--font-weight-bold);
   color: var(--text-color-light);
 }
+
 .text-medium {
   font-size: var(--font-size-medium);
 }
+
 .text-small {
   font-size: var(--font-size-small);
   color: var(--text-color-light);
 }
+
 .text-xsmall {
   font-size: var(--font-size-xsmall);
   color: var(--light-color);
 }
+
 .text-dark {
   color: var(--dark-color);
 }
+
 .text-white {
   color: var(--text-color-white);
 }
+
 .text-bold {
   font-weight: var(--font-weight-bold);
 }
+
 .text-quote {
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-light);
   font-style: italic;
   color: var(--dark-color);
 }
+
 .btn-cta {
   background-color: var(--accent-color);
 }
+
 .border-blue {
   border-color: var(--accent-color);
   border-style: solid;
 }
+
 .border-white {
   border-color: var(--text-color-white);
   border-style: solid;
 }
+
 .btn-space {
-  padding: 0.3125rem 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
+
 .flex-container {
   display: flex;
-  justify-content: space-between; /* Verteilt die Items gleichmäßig mit Platz dazwischen */
-  align-items: center; /* Zentriert die Items vertikal */
-  width: 1024px; /* Feste Breite des Containers */
-  margin: 0 auto; /* Zentriert den Container horizontal */
-  padding: 0px 20px; /* Innenabstand innerhalb des Containers */
+  justify-content: space-between;
+  align-items: center;
+  width: 64rem; /* 1024px / 16 = 64rem */
+  margin: 0 auto;
 }
+
 .flex-navigation {
   display: flex;
-  justify-content: space-between; /* Verteilt die Items gleichmäßig mit Platz dazwischen */
-  align-items: flex-end; /* Zentriert die Items vertikal */
+  justify-content: space-between;
+  align-items: flex-end;
 }
+
 .flex-navigation-item {
-  margin: 10px;
+  margin: 1.5625rem 0rem 1.5625rem 1.5625rem; /* 25px / 16 = 1.5625rem */
   list-style-type: none;
+}
+
+.above-height {
+  height: 31.25rem; /* 500px / 16 = 31.25rem */
+}
+
+.above-padding {
+  padding-right: 1.5625rem; /* 25px / 16 = 1.5625rem */
+}
+
+.above-margin {
+  margin-bottom: 0.9375rem; /* 15px / 16 = 0.9375rem */
+}
+
+.border-none {
+  border-style: none;
+}
+
+.random {
+  text-align: center;
+  margin: 3.4375rem 0rem 3.4375rem; /* 55px / 16 = 3.4375rem */
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 3.125rem; /* 50px / 16 = 3.125rem */
+}
+
+.image-gallery-item {
+  flex-basis: 10.625rem; /* 170px / 16 = 10.625rem */
+}
+
+.blockquote-box {
+  height: 26.875rem; /* 430px / 16 = 26.875rem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50rem; /* 800px / 16 = 50rem */
+  margin: 0 auto;
+}
+
+.blockquote-box-p {
+  width: 50rem; /* 800px / 16 = 50rem */
+}
+
+.footer-align {
+  align-self: flex-end;
+}
+
+.cta-section {
+  height: 21.875rem; /* 350px / 16 = 21.875rem */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-section-width {
+  width: 64rem; /* 1024px / 16 = 64rem */
+  display: flex;
+  height: 9.375rem; /* 150px / 16 = 9.375rem */
+  align-items: center;
+  padding: 3.125rem 6.25rem; /* 50px / 16 = 3.125rem, 100px / 16 = 6.25rem */
+  justify-content: space-between;
+}
+
+.footer-align {
+  text-align: center;
+  padding: 2.1875rem; /* 35px / 16 = 2.1875rem */
 }
